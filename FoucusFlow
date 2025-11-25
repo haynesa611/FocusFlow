@@ -1,5 +1,5 @@
 import time
-
+print("FocusFlow Timer is now starting…")
 def countdown(seconds):
     while seconds:
         mins, secs = divmod(seconds, 60)
